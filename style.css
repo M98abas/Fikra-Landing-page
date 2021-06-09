@@ -19,9 +19,9 @@ html {
 html[data-theme="dark"] {
   --fontText: white;
   --newFontColor: #ececec;
-  --whiteColor: #000;
+  --whiteColor: #15202b;
   --blackColor: #fff;
-  --bsckColor: #ffffff;
+  --bsckColor: #15202b;
   --color-headings: #3694ff;
 }
 
@@ -349,7 +349,7 @@ main .cards .card button {
 
 main .cards .card button:hover {
   color: var(--whiteColor);
-  background-color: var(--bsckColor);
+  background-color: var(--blackColor);
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }

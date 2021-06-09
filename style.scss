@@ -16,9 +16,9 @@ html {
 html[data-theme="dark"] {
   --fontText: white;
   --newFontColor: #ececec;
-  --whiteColor: #000;
+  --whiteColor: #15202b;
   --blackColor: #fff;
-  --bsckColor: #ffffff;
+  --bsckColor: #15202b;
   --color-headings: #3694ff;
 }
 .container {
@@ -242,7 +242,7 @@ main {
         transition: 0.5s;
         &:hover {
           color: var(--whiteColor);
-          background-color: var(--bsckColor);
+          background-color: var(--blackColor);
           transform: scale(1.1);
         }
       }
